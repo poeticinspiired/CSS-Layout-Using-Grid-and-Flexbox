@@ -1,0 +1,280 @@
+
+*{ 
+	margin: 0; 
+	padding: 0; 
+} 
+
+.container{
+	display: grid;
+}
+
+/*START HEADER CSS */
+.logo{
+	text-align:center;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+
+.socialmedia {
+	text-align:right;
+	margin:0;
+	padding:0;
+}
+
+.links{
+	grid-row: 1;
+	grid-column: 1;
+	color:white;
+}
+
+.links ul{
+	text-align:left;
+	padding-left:0;
+}
+
+.links ul li{
+	display:inline;
+	margin:0 3em;	
+}
+
+.links a {
+	text-decoration: none;
+	border: 1px solid #0172BA;
+	border-radius: 30px;
+	color: white;
+	background-color:#0172BA;
+	padding: 5px;
+}
+
+.links a:hover {
+	background-color:#089247;
+	color:white;
+}
+/* END OF HEADER CSS */
+
+
+/*START OF NAV CSS */
+
+.menu-bar{
+	display: inline;
+	color:white;
+	width:300%;
+	border:1px solid #0172BA;
+	background-color:#CEECFE;
+	text-align:center;
+	position: sticky;
+	top: 0;
+}
+
+.menu-bar .information li{
+	border: 1px solid #0172BA;
+	border-radius: 30px;
+	color: #0172BA;
+	padding: 5px;
+	display:inline;
+	text-align:center;
+	background-color:white;
+	line-height:35px;
+	margin: 0 2em;
+	line-height:60px;
+}
+
+.menu-bar li:hover{
+	background-color:#003557;
+}
+
+/* END OF NAV CSS */
+
+
+/*START OF PICTURE CSS */
+
+.img-1{
+	grid-column: 1;
+	margin: 0em 3em 5em 5em;
+}
+
+.img-2{
+	grid-column: 1;
+	margin: 0em 3em 5em 5em;
+}
+
+/* END OF PICTURE CSS */
+
+
+/*START OF MAIN-CONTER CSS*/
+
+.trails-list{
+	display: grid;
+	grid-template-columns:auto auto;
+	background-color:#CEECFE;
+	border:1px solid black;
+	padding:20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.trails-list h5 {
+	grid-row: 1;
+	grid-column: 1 / span 2;
+	margin-top: -15px;
+	padding-bottom: 20px;
+}
+
+.right-park{
+	grid-column:1;
+	grid-row:2;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.left-park{
+	border-left:1px solid black;
+	grid-column:2;
+	grid-row: 2;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* END OF of MAIN-CONTER CSS */
+
+h5 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align:center;
+}
+
+.container{
+	display:grid;
+	grid-template-columns:300px 20fr 5fr;
+	margin-top:15px;
+	grid-gap:30px;
+}
+
+.pictures{
+	grid-column:1;
+}
+
+
+.main-conter{
+	text-align:center;
+	grid-column: 2;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.Main-content{
+	grid-column:3;
+}
+
+ 
+h2, h3{
+	background-color:#0172BA;
+	color:white;
+	text-align:center;
+}
+
+
+.main-imag-right{
+	float:right;
+}
+
+
+.main-imag-left{
+	float:left;
+}
+
+.gridaside{
+	display: grid;
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	grid-column: 2;
+	margin-bottom: 2em;
+	padding-right: 5em;
+	padding-left: 5em;
+}
+
+
+h6{
+	text-align:center;
+	grid-column: 2;
+}
+
+/*START OF GALLERY CSS */
+
+.hardGallery{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	gap: 5px;
+	padding: 5px;
+}
+
+
+.con-1{
+	border: 2px solid black;
+	margin:0.2em;
+}
+
+/* END OF GALLERY CSS */
+
+/*START OF GRIDFOOTER CSS */
+
+.gridfooter{
+	border:1px solid #089247;
+	background-color:#CEECFE;
+	display:grid;
+	list-style-type: none;
+	grid-template-columns:auto auto auto;
+}
+
+.gridfooter ul{
+	list-style-type: none;
+}
+
+.footer-logo{
+		float:left;
+}
+
+
+.footer-about-us{
+	grid-column: 2;
+}
+
+
+.footer-photos{
+	grid-column: 3;
+}
+
+
+.footer-shop{
+	grid-column: 4;
+}
+
+
+.footer-seminars{
+	grid-column: 5;
+}
+
+
+.footer-reviews{
+	grid-column: 2;
+}
+
+
+.footer-travel{
+	grid-column: 3;
+}
+
+
+.footer-events{
+	grid-column: 4;
+}
+
+/* END OF GRIDFOOTER CSS */
